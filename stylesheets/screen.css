@@ -1,0 +1,253 @@
+@import url(basictheme.css);
+@import url(../icon/iconmoon.v1.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/bluenightz/Downloads/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/screen.scss */
+body {
+  margin: 0;
+  font-family: Arial, Tahoma;
+}
+
+/* line 17, ../sass/screen.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 22, ../sass/screen.scss */
+.mainnav {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-color: #4d4d4d;
+  border: 0px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 34, ../sass/screen.scss */
+.mainnav.navbar .navbar-nav > li > a, .mainnav.navbar .navbar-brand {
+  color: #fff;
+}
+/* line 37, ../sass/screen.scss */
+.mainnav.navbar .navbar-nav li.active a {
+  color: #4d4d4d;
+}
+/* line 40, ../sass/screen.scss */
+.mainnav .iconsize1 a {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 45, ../sass/screen.scss */
+.mainnav .fontsize1 a {
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 49, ../sass/screen.scss */
+.mainnav .navbar-nav > .open > a, .mainnav .navbar-nav > .open > a:hover, .mainnav .navbar-nav > .open > a:focus {
+  background-color: #f9db00;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 57, ../sass/screen.scss */
+.mainnav .navbar-brand {
+  padding-left: 35px;
+  position: relative;
+  color: #999 !important;
+}
+/* line 62, ../sass/screen.scss */
+.mainnav .navbar-brand > img {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+/* line 70, ../sass/screen.scss */
+.col-text-right {
+  text-align: right;
+}
+
+/* line 75, ../sass/screen.scss */
+.navbar-left[role^='search'] .balloonarticon-calendar {
+  font-size: 32px;
+}
+
+/* line 80, ../sass/screen.scss */
+.thead-center th {
+  text-align: center;
+}
+
+/* line 83, ../sass/screen.scss */
+.table1 {
+  font-size: 12px;
+}
+/* line 88, ../sass/screen.scss */
+.table1 .td1,
+.table1 .td3,
+.table1 .td4,
+.table1 .td5 {
+  text-align: center;
+}
+/* line 91, ../sass/screen.scss */
+.table1 .td2 {
+  margin-left: 30px;
+}
+/* line 94, ../sass/screen.scss */
+.table1 tbody td {
+  vertical-align: middle !important;
+}
+
+/* line 98, ../sass/screen.scss */
+.font-xs {
+  font-size: 12px;
+}
+
+/* line 101, ../sass/screen.scss */
+.topline {
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+/* line 105, ../sass/screen.scss */
+.tdyellow {
+  background-color: #ffc600;
+}
+
+/* line 108, ../sass/screen.scss */
+.mr-1 {
+  margin-right: 30px;
+}
+
+/* line 111, ../sass/screen.scss */
+.norti {
+  display: block;
+  background-color: #f00;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 12px;
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 127, ../sass/screen.scss */
+.ta-c {
+  text-align: center;
+}
+
+/* line 130, ../sass/screen.scss */
+.ta-r {
+  text-align: right;
+}
+
+/* line 133, ../sass/screen.scss */
+.select-xs-1 {
+  min-width: 70px;
+}
+
+/* line 136, ../sass/screen.scss */
+.circle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* line 146, ../sass/screen.scss */
+.signature-box {
+  text-align: center;
+  line-height: 22px;
+}
+
+/* line 150, ../sass/screen.scss */
+.circle-green {
+  background-color: #0f0;
+}
+
+/* line 153, ../sass/screen.scss */
+.circle-red {
+  background-color: #f00;
+}

@@ -1,0 +1,117 @@
+/* line 3, ../sass/basictheme.scss */
+.header1, .header3 {
+  font-family: Tahoma;
+  font-size: 34px;
+  color: #4e3629;
+  display: block;
+  padding: 25px 0;
+}
+
+/* line 10, ../sass/basictheme.scss */
+.header2 {
+  font: bold 12/18px Tahoma, Tahoma;
+  font-family: Tahoma;
+  color: #4e3629;
+  display: block;
+  padding-bottom: 10px;
+}
+
+/* line 17, ../sass/basictheme.scss */
+.header3 {
+  color: #a66b4a;
+  padding: 0px;
+}
+
+/* line 22, ../sass/basictheme.scss */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+/* line 26, ../sass/basictheme.scss */
+.group:after {
+  clear: both;
+}
+
+/* line 29, ../sass/basictheme.scss */
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* line 33, ../sass/basictheme.scss */
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+}
+
+/* line 39, ../sass/basictheme.scss */
+.basictext {
+  border: 1px solid #a7a7a7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 28px !important;
+  height: 32px;
+  padding: 0 0 0 5px;
+  font-size: 11px;
+}
+
+/* line 49, ../sass/basictheme.scss */
+textarea.basictext {
+  height: 120px;
+  min-height: 30px;
+}
+
+/* line 53, ../sass/basictheme.scss */
+select {
+  font-size: 16px;
+  background: none;
+  padding: 5px;
+  display: block;
+  border: 1px solid #ccc;
+  line-height: 28px;
+  min-width: 150px;
+}
+/* line 62, ../sass/basictheme.scss */
+select option {
+  line-height: 18px;
+}
+
+/* line 66, ../sass/basictheme.scss */
+.textyellow2 {
+  color: #e1e62b;
+}
+
+/* line 69, ../sass/basictheme.scss */
+.btn-noborder {
+  border: 0px;
+  padding: 0px;
+}
+
+/* line 73, ../sass/basictheme.scss */
+.text-red {
+  color: red;
+}
+
+/*.btn{
+	font: normal 16px/34px $font1;
+	border:0px;
+	padding-left:10px;
+	padding-right:10px;
+	display: block;
+	text-decoration: none;
+	float:left;
+	cursor:pointer;
+}
+.btn-submit{
+	background: $color1;
+	color:#fff;
+}
+.btn-default{
+	background: #fff;
+	color:$color1;
+}*/
